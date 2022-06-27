@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I really don't know</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="Battle-screen">
+        <div class="Enemy-window">
+            <div class="enemy-information">
+                <h1>Skeleton <br> Hound</h1>
+                <img src="./assets/Black-backed_Jackal_skeleton_(black_background).jpg" alt="">
+                <ul class="enemy-stats">
+                    <li id="enemy_hp">4 HP</li>
+                    <li>3 MP</li>
+                </ul>
+            </div>
+            <div class="enemy-detail">
+                <strong class="underline">
+                    INFORMATION
+                </strong>
+                <p>
+                    The loyal companion of the skeleton warrior
+                </p>
+                <br>
+                <ul>
+                    <li id="enemy_dmg">DMG: 2-3</li>
+                    <li>DEF: 1-2</li>
+                    <li>EXP: 8-10</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="Battle-dialogue">
+            <p id="battle_log">You strike the &lt;enemy name&gt;</p>
+        </div>
+
+        <div class="Player-window">
+            <div class="player-information">
+                <h1>PLAYER NAME</h1>
+                <img src="./assets/viking-warrior-11549396539rhrtbesdvj-removebg-preview.png" alt="">
+            </div>
+            <div class="player-detail">
+                <strong class="underline">
+                    STATS
+                </strong>
+                <ul>
+                    <li id="player_hp">10 HP</li>
+                    <li>5 MP</li>
+                    <li>LVL: 1</li>
+                    <li>EXP: 0</li>
+                    <li id="player_dmg"></li>
+                    <li>DEF: 1-2</li>
+                </ul>
+                <br>
+                <p>
+                    <strong class="underline">SPECIAL ATTACK</strong> <br>
+                    POWER STRIKE THAT DOES 100% DMG
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="Buttons">
+        <div class="left">
+            <button type="button" class="attack text-stroke" id="attk_btn">ATTACK</button>
+            <button type="button" class="heal text-stroke ">HEAL</button>
+        </div>
+        <div>
+            <button type="button" class="defend text-stroke">DEFEND</button>
+            <button type="button" class="escape text-stroke">ESCAPE</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
